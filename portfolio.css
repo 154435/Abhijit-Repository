@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans&family=Heebo&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fira+Sans&family=Heebo&family=Source+Code+Pro:ital,wght@1,500&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    background-color:aquamarine; 
+   
+    height: 121vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+    width: 250px;
+}
+
+.sidebarGo
+{   background-color: rgb(119, 85, 42);
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    color: chartreuse;
+    list-style: none;
+    font-size: 20px;
+    padding: 22px 0px;
+
+}
+
+.sidebar nav li a
+{
+    background-color: rgb(173, 223, 206);
+    text-decoration: none;
+    color: rgb(25, 22, 22);
+}
+
+.main {
+     background-color: moccasin; 
+    width: 100vw;
+
+}
+
+.container {
+    
+    display: flex;
+    height: 876px;
+}
+
+.infocontainer {
+    /* background-color: rgb(131, 216, 47);*/ 
+    height: 58vh;
+    width: 76vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.devPic {
+    margin: -57px auto;
+    height: 10vh;
+    
+    visibility: inherit;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: -200px;
+}
+
+.hello {
+    font-size: 55px;
+    font-family: 'Ibarra Real Nova', serif;
+    
+
+
+}
+
+.name {
+    background-color: aqua;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+.moreabout {
+    font-size: 22px;
+    margin: 23px;
+}
+
+.buttons
+{
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.btn
+{
+    padding: 4px 2px;
+    border-radius: 10px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.btn-sm
+{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px;
+}
+
+.contactform
+{
+    padding: 144px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+
+.contactform h1
+{
+    font-family: 'Ibarra Real Nova', serif;
+    
+}
+
+.contactform form div
+{
+    padding: 10px 0px;
+}
+
+
+.form-control
+{
+    display: flex;
+    width: 20vw;
+    border-radius: 5px;
+   
+}
+
+
+
+
+.form-text
+{
+    font-size: 9px;
+    color: blueviolet;
+}
+
+.blogcontainer
+{
+
+    margin: 0 50px;
+}
+
+.blogItem 
+{
+  margin: 20px;  
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.blogItem h2 
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+
+.blogItem p 
+{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.blogcontainer h1
+{
+    font-family: 'Source Code Pro', monospace;
+    margin: 23px;
+   
+}
+
+h1
+{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+   
+}
+
+p
+{
+    font-family: 'Source Code Pro', monospace;
+    margin: 23px;
+}
+
+.intro
+{
+  margin: 60px;
+}
+
+
+.intro h2
+{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+}
+
+.intro p
+{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skill
+{
+    width: 209px;
+    height: 4px;
+    background-color: Red;
+    border: 2px solid black;
+}
+
+.skillcontainer
+{
+    padding: 12px;
+    
+}
+
+span
+{
+    margin: 15px;
+    padding: 0;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 21px;
+    color: brown;
+}
+
+
+hundred {
+    width: 300px;
+    background-color: Red;
+    height: 28px;
+    width: 600px;
+}
+
+.fifty
+{
+ width: 150px;
+ background-color: aqua;
+}
+
+.t5
+{
+ width: 100px;
+ background-color: rgb(192, 55, 155);
+}
+
+.ninty
+{
+    width: 275px;
+    background-color: chartreuse;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross
+{
+   margin-left: 120px;
+}
+
+.ham
+{
+    color: chartreuse;
+    border-image: fill;
+}
+
+
+@media screen and (max-width: 1150px)
+{
+    .devPic
+    {
+       display: none;
+    }
+    .devinfo
+    {
+        font-size:10px;
+    }
+
+    .intro, .blogcontainer, .contactform
+    {
+        margin: 50px 8px;
+    }
+
+    .devinfo
+    {
+        font-size: 10px;
+    }
+
+    .buttons
+    {
+        font-size: 6px;
+    }
+
+    .sidebarGo
+    {
+        transform: translate(-400px,0px);
+        position: absolute;
+    }
+
+    .main {
+        background-color: rgb(246, 246, 102);
+        width: 100vw;
+        height: 1128px;
+    }
+}
